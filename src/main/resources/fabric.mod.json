@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "potassium",
+  "version": "${version}",
+
+  "name": "Potassium",
+  "description": "Potassium is a mod for 1.19.3+ and is an optimization mod for fabric and soon-coming forge support!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "none",
+    "sources": "add github when it is made"
+  },
+
+  "license": "All Rights Reserved",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.blake_jh.potassium.Potassium"
+    ],
+    "client": [
+      "net.blake_jh.potassium.PotassiumModClient"
+    ]
+  },
+  "mixins": [
+    "potassium.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
