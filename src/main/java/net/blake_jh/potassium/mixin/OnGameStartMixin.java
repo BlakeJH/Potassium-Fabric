@@ -8,9 +8,9 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(TitleScreen.class)
-public class ExampleMixin {
+public class OnGameStartMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		Potassium.LOGGER.info("This line is printed by an example mod mixin!");
+		Potassium.LOGGER.info("Potassium v0.0.1 booted successfully!");
 	}
 }
