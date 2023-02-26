@@ -9,11 +9,11 @@
     "Blake_JH"
   ],
   "contact": {
-    "homepage": "none",
-    "sources": "add github when it is made"
+    "homepage": "add curseforge when its made",
+    "sources": "https://github.com/BlakeJH/Potassium-1.19.3"
   },
 
-  "license": "All Rights Reserved",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
